@@ -3,7 +3,7 @@ import os
 import traceback
 
 # Debug API Key (jangan lupa ganti ini ke environment variable di produksi!)
-genai_api_key = "AIzaSyDOUCIHbXbVz5j7QT9VNMQiWTYi7YplEa4"
+genai_api_key = ""
 print("[DEBUG] Mengatur API Key...")
 genai.configure(api_key=genai_api_key)
 
